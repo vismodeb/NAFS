@@ -1,0 +1,1000 @@
+/*
+Templeate Name: NAFS
+Templeate URI: https://
+Author: Uttam Roy.
+Author URL: https://www.facebook.com/realmeans.uttam/
+Description: This is the official website of NAFS.
+Tags: NAFS website, Business website, HTML template, Personal website.
+Version: 1.0.0
+
+
+
+
+Table of Content
+================
+** Import CSS Files **
+** Default CSS **
+** Main CSS **
+
+*/
+
+
+
+
+/* Start Import CSS File */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* End Import CSS File */
+
+
+/* Start Default CSS */
+html{
+	font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color: inherit;
+}
+ul{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+	margin: 0;
+	padding: 0;
+}
+
+.btn{
+
+}
+.btn:hover{
+
+}
+.container{
+    max-width: 120rem;
+    width: 100%;
+    margin: auto;
+}
+p{
+    margin-bottom: inherit;
+}
+
+/* End Default CSS */
+
+  /**************/
+ /** Main CSS **/
+/**************/
+/* Start Header CSS */
+header{
+    color: #FFFFFF;
+}
+.logo-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header{
+    border-left: 1px solid #FF5353;
+    border-right: 1px solid #FF5353;
+    width: 100%;
+}
+.logo-header-area{
+    background: #AA0000;
+}
+.logo-area img{
+    max-width: 38rem;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 5rem 1.5rem 0;
+    object-fit: cover;
+}
+.social-top-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FF5353;
+    padding-left: 10px;
+}
+.notice-area{
+    display: flex;
+    align-items: center;
+}
+.social-area{
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #FF5353;
+}
+.notice-area p:first-child{
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+}
+.notice-area p:last-child{
+    display: flex;
+    align-items: center;
+    line-height: inherit;
+}
+.notice-area p a{
+    transition: .5s;
+}
+.notice-area p a:hover{
+    color: yellowgreen;
+}
+.notice-area p{
+    padding: 10px 20px;
+}
+.notice-area i{
+    font-size: 600;
+    font-size: 18px;
+    margin-right: 9px;
+}
+.social-top-header p{
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+.social-icons i{
+    padding: 10px 10px;
+    line-height: inherit;
+    transition: .5s;
+}
+.social-icons a:hover{
+    color: yellowgreen;
+}
+.languages{
+    border-left: 1px solid #FF5353;
+}
+.languages p{
+    padding: 10px 10px;
+}
+.nav-top-header ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-top-header ul li{
+    margin: 12px 0;
+}
+.nav-top-header ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.nav-top-header ul li a:hover{
+    color: greenyellow;
+}
+
+/* Start Header Full Menu */
+.nav-header-area{
+    background: #710000;
+}
+.nav-header ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-header ul li{
+    margin: 10px 0;
+}
+.nav-header ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.nav-header ul li a:hover{
+    color: greenyellow;
+}
+.menu-bar{
+    position: absolute;
+    right: 20px;
+    top: 7%;
+    display: none;
+}
+.menu-bar span{
+    font-size: 30px;
+}
+/* End Header Full Menu */
+/* End Header CSS */
+
+
+
+/* Start Hero Area CSS */
+.hero-container{
+    background: url("../images/banner1.png") no-repeat scroll center center / cover;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+.hero-container::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url("../images/banner2.png") no-repeat scroll center center / cover;
+    opacity: .8;
+    z-index: -1;
+}
+.hero-container::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #AA0000 0%, #FDAC00 100%);
+    opacity: .5;
+    z-index: -1;
+}
+.hero-area{
+    padding: 50px 0;
+}
+.hero-area h1 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hero-area p:nth-of-type(1){
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+}
+.hero-area p:nth-of-type(2){
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+
+}
+
+.hero-area-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.award-area h2 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.award-area p{
+    margin-bottom: inherit !important;
+    text-transform: capitalize;
+}
+.subscribe-area p{
+    margin-bottom: inherit !important;
+    padding: 8px 20px;
+    background: #AA0000;
+    border: .5px solid #f2efc8;
+    border-radius: 33px;
+    font-size: 14px;
+}
+/* End Hero Area CSS */
+
+
+
+/* Start Helpline Area CSS */
+.helpline-container{
+    background: #710000;
+    color: #FFFFFF;
+}
+.helpline-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flug-area,
+.call-area{
+    display: flex;
+    align-items: center;
+    padding: 13px 0;
+}
+.flug-area img{
+    width: 27px;
+    height: auto;
+    margin-right: 10px;
+}
+.call-area{
+    font-size: 14px;
+}
+.call-area a{
+    transition: .5s;
+}
+.subscribe-area a{
+    color: #FDAC00;
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.call-area a:hover,
+.subscribe-area a:hover{
+    color: greenyellow;
+}
+/* End Helpline Area CSS */
+
+
+
+
+/* Start Banner Area CSS */
+.banner-container{
+    background: url("../images/banner3.png") no-repeat scroll center top / cover;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+.banner-container::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.3;
+    z-index: -1;
+}
+.banner-area{
+    padding: 150px 0;
+    margin-left: 80px;
+}
+.banner-area p{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.banner-area h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+}
+.banner-area h2::before{
+    position: absolute;
+    content: "";
+    left: -15px;
+    top: 50%;
+    height: 70%;
+    width: 1px;
+    background: #FFFFFF;
+    transform: translateY(-50%);
+}
+/* End Banner Area CSS */
+
+
+
+/* Start Admission Area CSS */
+.admission-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.admission-open{
+    flex: 0 0 25%;
+    background: #FDAC00;
+}
+.admission-open-title{
+}
+.admission-open-title h3{
+    color: #000000;
+    padding: 13px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.admission-open-list{
+    background: #CC0001;
+    text-align: center;
+    padding: 5px 0;
+}
+.admission-open-list li{
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.admission-open-list li a:hover{
+    color: yellowgreen;
+}
+.admission-open-list li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff42;
+    padding-bottom: 8px;
+    transition: .5s;
+}
+.admission-open-list li span{
+    max-width: 165px;
+    margin: auto;
+}
+.admission-open-list li img{
+    width: 20px;
+    height: auto;
+}
+.admission-open-footer{
+    background: #FDAC00;
+    padding:15px 13px;
+    text-align: center;
+}
+.admission-open-footer h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 26px;
+
+}
+.admission-open-footer p{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+}
+.admission-open-footer a{
+    transition: .5s;
+}
+.admission-open-footer a:hover{
+    color: #066ba7;
+}
+
+.admission-courses{
+    flex: 0 0 46%;
+    background: #710000;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.admission-courses-title h3{
+    padding-bottom: 15px;
+    color: #FFFFFF;
+}
+.admission-courses-list{
+    background: #FFFFFF;
+    padding:10px 15px;
+    margin-bottom: 10px;
+}
+.admission-courses-list:last-child{
+    margin-bottom: 0;
+}
+
+.admission-courses-list h4{
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.admission-courses-list h4 a{
+    transition: .3s;
+}
+.admission-courses-list h4 a:hover{
+    color: #066ba7;
+}
+.admission-courses-list p{
+    margin-bottom: 0 !important;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Admission form */
+.admission-form{
+    flex: 0 0 25%;
+    background-color: #FFCCCB;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.admission-form h4{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+.admission-form input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 10px;
+}
+.admission-form input::placeholder{
+    color: #000000;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.admission-form input[type="submit"]{
+    background: #CC0001;
+    color: #fff;
+    margin-top: 20px;
+    transition: .5s;
+}
+.admission-form input[type="submit"]:hover{
+    background: #a70809;
+}
+/* End Admission Area CSS */
+
+/* nafs-section */
+.nafs-section{
+    margin: 80px 0;
+}
+.nafs-section-title{
+    position: relative;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+}
+.nafs-section-title::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 32px;
+    color: #000;
+    background: #fff;
+    padding: 0 25px;
+    font-weight: 700;
+}
+.nafs-services-items{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 15px;
+    text-align: center;
+}
+.nafs-single-box{
+    background: #FFFFFF;
+    border: 2px solid #E6E6E6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.nafs-single-image{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #CC0001;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+.nafs-single-image img{
+    width: 45px;
+    object-fit: cover;
+}
+.nafs-single-content{
+    padding: 30px 2px;
+}
+.nafs-single-content p{
+    color: #000;
+    font-weight: 600;
+}
+
+/* nav-top-header sample-page-menu */
+    .nav-header-area .sample-page-menu{
+        display: none;
+    }
+    .nav-header .sm-mobile-menu {
+        display: none;
+    }
+
+/* student-opinations */
+.student-opinations{
+    background-color: #CC0001;
+    padding: 25px 0;
+}
+.student-opinations-items{
+    display: flex;
+    justify-content: space-between;
+}
+.studnet-opinations-about{
+    text-align: center;
+    flex: 0 0 60%;
+}
+.studnet-opinations-about h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.student-notices{
+    flex: 0 0 32%;
+}
+.student-video-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    background-color: #fff;
+    padding: 3px;
+}
+.student-opinations-video{
+    position: relative;
+    z-index: 1;
+}
+.student-opinations-video::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: #000000;
+    opacity: 0.2;
+    z-index: -1;
+}
+.student-opinations-video a{
+    display: inline-block;
+}
+.student-single-video{
+    width: 100%;
+    padding: 47px 10px;
+}
+
+.student-single-video img{
+    width: 55px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+.student-single-video h4{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+.student-notices{
+    flex: 0 0 39%;
+}
+.student-notices h4{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.student-notice-board{
+    background: #fff;
+    margin-top: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: calc(100% - 35px)
+}
+.student-notice-board p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 28px;
+    display: flex;
+}
+.student-notice-board p span{
+    margin-right: 5px;
+}
+/* student-opinations end 
+----------------------------------------*/
+
+
+
+/* blog-post start 
+-------------------------------------*/
+.blog-post{
+    padding: 50px 0;
+
+}
+.blog-post-title h3{
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 27px;
+    margin-bottom: 35px;
+}
+.blog-post-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+.blog-single-items{
+
+}
+.blog-image{
+    position: relative;
+}
+.blog-image a{
+    display: inline-block;
+}
+.blog-image a img{
+    width: 100%;
+    object-fit: cover;
+}
+.post-date {
+    position: absolute;
+    color: #fff;
+    background: #CC0001;
+    padding: 10px 16px;
+    text-align: center;
+    bottom: -26px;
+    right: 25px;
+}
+.post-date p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.post-date p:last-child {
+    font-size: 13px;
+    font-weight: 500;
+}
+.blog-content{
+    padding-top: 40px;
+}
+.blog-content h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    line-height: 25px;
+}
+.blog-content h4 a{
+    transition: .3s;
+}
+.blog-content h4 a:hover{
+    color: #066ba7;
+}
+.blog-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.blog-content > a{
+    color: #CC0001;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .3s;
+}
+.blog-content > a:hover{
+    color: #066ba7;
+}
+/* blog-post end */
+
+
+
+
+/* Start Peragraph Area CSS */
+.peragraph-container{
+    background: #CC0001;
+}
+.peragraph-area{
+    padding: 23px 0;
+    color: #fff;
+}
+/* End Peragraph Area CSS */
+
+
+
+
+/* Start Middle Menu Area CSS */
+/* first menu */
+.middle-first-container{
+    background: #FDAC00;
+}
+.middle-first-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle-first-area ul{
+    display: flex;
+    align-items: center;
+}
+.middle-first-area ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: capitalize;
+    transition: .5s;
+    padding: 10px 0;
+    margin-right: 20px;
+    position: relative;
+}
+.middle-first-area ul a::after{
+    position: absolute;
+    content: "|";
+    right: -10px;
+    transition: .3s;
+}
+.middle-first-area ul a:hover::after{
+    color: #000;
+}
+.middle-first-area ul li:last-child a::after{
+    position: absolute;
+    content: "";
+    right: -10px;
+}
+.login-area{
+    display: flex;
+}
+
+.login-area{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: capitalize;
+    transition: .5s;
+    padding: 10px 0;
+}
+.login-area p{
+    position: relative;
+    margin-right: 20px;
+}
+.login-area p::after{
+    position: absolute;
+    content: "|";
+    right: -10px;
+}
+.middle-first-area a{
+    transition: .3s;
+}
+.middle-first-area a:hover{
+    color: #066ba7;
+}
+/* first menu */
+
+
+/* second menu */
+.middle-second-area ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.middle-second-area ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 33px;
+    text-transform: capitalize;
+    transition: .5s;
+    padding: 10px 0;
+    margin-right: 20px;
+    position: relative;
+}
+.middle-second-area ul a::after{
+    position: absolute;
+    content: "|";
+    right: -10px;
+    transition: .3s;
+}
+.middle-second-area ul a:hover::after{
+    color: #000;
+}
+.middle-second-area ul li:last-child a::after{
+    position: absolute;
+    content: "";
+    right: -10px;
+}
+.middle-second-area a:hover{
+    color: #066ba7;
+}
+/* second menu */
+/* End Middle Menu Area CSS */
+
+
+
+
+/* Start Map Area CSS */
+.map-container{
+    background: #CC0001;
+    padding-top: 40px;
+    color: #fff;
+}
+.map-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: 1px solid #ffffff8a;
+    padding-bottom: 20px;
+}
+
+.campus-area iframe{
+    width: 100%;
+    height: 180px;
+}
+.number-area{
+    text-align: center;
+}
+.office-area{
+    flex: 0 0 33.33%;
+}
+.office-area h3{
+    text-align: right;
+}
+.office-area p{
+    text-align: right;
+}
+.office-area iframe{
+    float: right;
+    overflow: hidden;
+    width: 100%;
+    height: 180px;
+}
+.map-area h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.map-area p{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.number-area h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.number-area p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.social-icon a i{
+    font-size: 16px;
+    padding: 0 7px;
+}
+.social-icon a{
+    transition: .3s;
+}
+.social-icon a:hover{
+    color: yellowgreen;
+}
+/* End Map Area CSS */
+
+
+/* Start Footer CSS */
+footer{
+    background: #CC0001;
+    padding: 25px 0;
+    color: #fff;
+}
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-area a{
+    font-size: 15px;
+    transition: .5s;
+}
+.footer-area a:hover{
+    color: yellowgreen;
+}
+/* End Footer CSS */
